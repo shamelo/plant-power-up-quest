@@ -1,29 +1,22 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { PlantKingdomApp } from "@/components/plant-kingdom-app";
 
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Your App" },
-      { name: "description", content: "Replace this with a one-sentence description of your app." },
-      { property: "og:title", content: "Your App" },
-      { property: "og:description", content: "Replace this with a one-sentence description of your app." },
+      { title: "Plant Kingdom Tracker — Retro Plant Watering Game" },
+      {
+        name: "description",
+        content:
+          "A retro 8-bit plant watering tracker. Care for Aloe, Jade, and Pothos, earn coins, build streaks, and never forget a watering.",
+      },
+      { property: "og:title", content: "Plant Kingdom Tracker" },
+      {
+        property: "og:description",
+        content:
+          "Retro plant care game. Water your plants, earn coins, and unlock badges.",
+      },
     ],
   }),
-  component: Index,
+  component: PlantKingdomApp,
 });
-
-// IMPORTANT: Replace this placeholder. See ./README.md for routing conventions.
-function Index() {
-  return (
-    <div
-      className="flex min-h-screen items-center justify-center"
-      style={{ backgroundColor: "#fcfbf8" }}
-    >
-      <img
-        data-lovable-blank-page-placeholder="REMOVE_THIS"
-        src="https://cdn.gpteng.co/blank-app-v1.svg"
-        alt="Your app will live here!"
-      />
-    </div>
-  );
-}
