@@ -260,5 +260,4 @@
     50% { transform: translateY(-6px); }
   }
   .bounce-pixel { animation: bounce-pixel 0.6s steps(3, end) 2; }
-  }
 }
