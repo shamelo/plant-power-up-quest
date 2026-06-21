@@ -16,9 +16,15 @@ const buttonVariants = cva(
         secondary: "bg-secondary text-secondary-foreground shadow-sm hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
+        hero:
+          "pixel-text bg-[var(--color-primary)] text-[var(--color-primary-foreground)] border-[3px] border-[var(--color-border)] rounded-none shadow-[4px_4px_0_0_var(--color-border)] hover:translate-x-[1px] hover:translate-y-[1px] hover:shadow-[3px_3px_0_0_var(--color-border)] active:translate-x-[3px] active:translate-y-[3px] active:shadow-none",
+        pipe:
+          "pixel-text pipe-bg text-white border-[3px] border-[var(--color-border)] rounded-none shadow-[4px_4px_0_0_var(--color-border)] hover:translate-x-[1px] hover:translate-y-[1px] hover:shadow-[3px_3px_0_0_var(--color-border)] active:translate-x-[3px] active:translate-y-[3px] active:shadow-none",
+        brick:
+          "pixel-text bg-[var(--color-brick)] text-white border-[3px] border-[var(--color-border)] rounded-none shadow-[4px_4px_0_0_var(--color-border)] hover:translate-x-[1px] hover:translate-y-[1px] hover:shadow-[3px_3px_0_0_var(--color-border)] active:translate-x-[3px] active:translate-y-[3px] active:shadow-none",
       },
       size: {
-        default: "h-9 px-4 py-2",
+        default: "h-11 px-4 py-2",
         sm: "h-8 rounded-md px-3 text-xs",
         lg: "h-10 rounded-md px-8",
         icon: "h-9 w-9",
