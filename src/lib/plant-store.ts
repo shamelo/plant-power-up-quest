@@ -1,4 +1,4 @@
-import { useEffect, useState, useCallback } from "react";
+import { useEffect, useState } from "react";
 
 export type PlantType = "Aloe" | "Jade" | "Pothos";
 
