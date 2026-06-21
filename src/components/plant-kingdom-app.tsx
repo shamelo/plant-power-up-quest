@@ -536,7 +536,7 @@ function Dashboard() {
                   {PLANT_EMOJI[p.type]} {p.nickname}
                 </span>
                 <span className="shrink-0 pixel-box-sm bg-[var(--color-coin)] text-[var(--color-foreground)] px-1.5 py-0.5">
-                  {until <= 0 ? "NOW" : `${until}d`}
+                  {until <= 0 ? "NOW" : `${until}d`} · {formatDate(nextWaterDate(p).toISOString())}
                 </span>
               </li>
             ))}
