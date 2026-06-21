@@ -80,11 +80,15 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { title: "Plant Kingdom Tracker — Retro Plant Watering Game" },
       { name: "description", content: "Water your plants, earn coins, build streaks. A retro 8-bit plant care tracker for Aloe, Jade, and Pothos." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Plant Kingdom Tracker" },
-      { property: "og:description", content: "Retro 8-bit plant watering tracker. Earn coins, build streaks, keep your plants happy." },
+      { property: "og:title", content: "Plant Kingdom Tracker — Retro Plant Watering Game" },
+      { property: "og:description", content: "Water your plants, earn coins, build streaks. A retro 8-bit plant care tracker for Aloe, Jade, and Pothos." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Plant Kingdom Tracker — Retro Plant Watering Game" },
+      { name: "twitter:description", content: "Water your plants, earn coins, build streaks. A retro 8-bit plant care tracker for Aloe, Jade, and Pothos." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/9ea0cf5b-da9a-4999-a448-49a05affd49f/id-preview-cf179054--b8e333ed-d25d-4753-bcc3-0455c1b72fb6.lovable.app-1782009974776.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/9ea0cf5b-da9a-4999-a448-49a05affd49f/id-preview-cf179054--b8e333ed-d25d-4753-bcc3-0455c1b72fb6.lovable.app-1782009974776.png" },
     ],
     links: [
       {
